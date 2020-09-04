@@ -19,6 +19,9 @@ This repo contains the files needed for construction of a custom motion controll
   * [Inverter and Spindle](#inverter-and-spindle)
     + [Inverter connection](#inverter-connection)
     + [Spindle cooling](#spindle-cooling)
+  * [Software for G-Code streaming](#software-for-g-code-streaming)
+    + [Candle](#candle)
+    + [GRBL Panel](#grbl-panel)
 
 ## Block diagram
 
