@@ -15,6 +15,7 @@ The main controller board is an AVR ATMega8 based device aiming to replace the A
 * Additional noise-reducing and LPF circuitry for the inputs and outputs
 * A high-voltage output for the coolant output
 
+
 ## Motor Drivers
 <img align="right" height="200" src="./Images/driver1.PNG">
 The 2DM556S 4.2 RMS drivers are used.
