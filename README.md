@@ -15,7 +15,7 @@ The main controller board is an AVR ATMega8 based device aiming to replace the A
 * Additional noise-reducing and LPF circuitry for the inputs and outputs
 * A high-voltage output for the coolant output
 
-![pcb_image](./Images/pcb.png)
+![pcb_image](./Images/pcb.PNG)
 
 
 ## Motor Drivers
