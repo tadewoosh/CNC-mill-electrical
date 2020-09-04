@@ -11,7 +11,7 @@ This repo contains the files needed for construction of a custom motion controll
     + [GRBL Settings](#grbl-settings)
   * [Inputs wiring](#inputs-wiring)
     + [Limit switches](#limit-switches)
-    + [Sensor](#sensor)
+    + [Probe](#Probe)
     + [User buttons](#user-buttons)
   * [Motor Drivers](#motor-drivers)
     + [Driver configuration](#driver-configuration)
@@ -73,10 +73,10 @@ TODO:
 
 Limit switches wiring
 
-### Sensor
+### Probe
 TODO:
 
-Sensor wiring
+Probe wiring
 
 ### User buttons
 TODO:
