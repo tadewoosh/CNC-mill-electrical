@@ -20,9 +20,6 @@ This repo contains the files needed for construction of a custom motion controll
     + [Inverter connection](#inverter-connection)
     + [Spindle cooling](#spindle-cooling)
 
-<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
-
-
 ## Block diagram
 
 ![diagram1](./Images/diagram1.png)
