@@ -123,6 +123,12 @@ The spindle is water-cooled, so I made a temperature monitoring system from an o
 * displays calculated values live on the 128x64 LCD
 * watches for ovearheat and low-flow conditions in order to alert the operator, pause the program and disable the spindle
 
+## Software for G-Code streaming
+### Candle
+
+### GRBL Panel
+
+
 
 
 
