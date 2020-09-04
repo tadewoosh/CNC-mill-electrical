@@ -4,9 +4,11 @@ The electrical part of the CNC router/mill project.
 This repo contains the files needed for construction of a custom motion controller based on the [GRBL 1.1](https://github.com/gnea/grbl) project. If you don't want to make your own PCB you can still use GRBL compatible Arduino boards.
 
 ## Block diagram
+
 ![diagram1](./Images/diagram1.png)
 
 ## Motion controller
+
 <img align="right" height="200" src="./Images/pcb.PNG">
 
 ### Why not Arduino?
