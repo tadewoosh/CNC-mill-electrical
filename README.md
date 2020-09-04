@@ -72,5 +72,15 @@ The inverter model is **YL620-A-2.2kW**. It is powered by a single-phase 230V ma
 ### Inverter connection
 
 ### Spindle cooling
+<img align="right" height="200" src="./Images/temp_display.jpg">
+
+The spindle is water-cooled, so I made a temperature monitoring system from an old graphic-lcd project based on another AVR and here is what it does:
+* measures the temperatures of the ingoing and outgoing coolant using **DS18B20** 1-wire digital thermometers
+* measures the flow of the coolant using a simple **YF-S201** flow-meter
+* calculates the thermal power gathered by the coolant
+* displays calculated values live on the 128x64 LCD
+* watches for ovearheat and low-flow conditions in order to alert the operator, pause the program and disable the spindle
+
+<img align="right" height="200" src="./Images/spindle_cooling.jpg">
 
 
