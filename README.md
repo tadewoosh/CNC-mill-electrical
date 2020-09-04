@@ -1,7 +1,7 @@
 # CNC mill: electrical
-The electrical part of the CNC mill project.
+The electrical part of the CNC router/mill project.
 
-This repo contains the files needed for construction of a custom machine controller based on the [GRBL 1.1](https://github.com/gnea/grbl) project. If you dont want to make your own PCB you can still use GRBL compatible Arduino boards.
+This repo contains the files needed for construction of a custom motion controller based on the [GRBL 1.1](https://github.com/gnea/grbl) project. If you don't want to make your own PCB you can still use GRBL compatible Arduino boards.
 
 ## Block diagram
 ![diagram1](./Images/diagram1.png)
@@ -26,11 +26,11 @@ In order to program a blank AVR chip with GRBL one needs first to obtain the Ard
 <img align="right" height="200" src="./Images/schematic1.png">
 <img align="right" height="200" src="./Images/schematic2.png">
 
-* up to 36V DC supply voltage when using **TSR 1-2450**, otherwise **7805** specification applies.
-* reverse power supply protection
-* reset switch
-* ISP connector (*NOTE: The programming using ISP shlud not be used when the spindle inverter is ON*)
-* debug serial commincation port with 5V tap
+* Up to 36V DC supply voltage when using **TSR 1-2450**, otherwise **7805** specification applies.
+* Reverse power supply protection
+* Reset switch
+* ISP connector (*NOTE: Programming using ISP shlud not be conducted when the spindle inverter is connected.*)
+* Debug serial commincation port with 5V tap
 * USB to serial converter based on FTDI with optoisolation
 * 3 sets of STEP/DIR/ENABLE connectors for stepper drivers with LED indicators
 * User switches inputs (active low, with debouncing circuitry): ABORT, HOLD, START
@@ -42,11 +42,15 @@ In order to program a blank AVR chip with GRBL one needs first to obtain the Ard
 ## Motor Drivers
 <img align="right" height="200" src="./Images/driver1.PNG">
 
-The **2DM556S** 4.2 RMS drivers are used.
+The **2DM556S** 4.2A RMS drivers are used.
 
-The current limiter on the driver is set to 3,5A in order to drive the 60HS100-3504A08-D24 4,3N.m stepper motors.
+### Driver configuration
 
-The microstepping is set to 2000.
+* Current limiter on the driver is set to 3,5A in order to drive the 60HS100-3504A08-D24 4,3N.m stepper motors.
+* Microstepping is set to 2000, combined with 1,8 sdegree mechanical resolution of the stepper and 5mm/turn of the ballscrew on each axis returns a resolution of 400 steps/mm.
+
+### Driver connection
+
 
 ## Spindle Inverter
 <img align="right" height="200" src="./Images/inverter2k2.jpg">
