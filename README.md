@@ -42,7 +42,9 @@ In order to program a blank AVR chip with GRBL one needs first to obtain the Ard
 
 ### GRBL Settings
 
-TODO: GRBL Settings.
+TODO: 
+
+GRBL Settings
 
 ## Motor Drivers
 <img align="right" height="200" src="./Images/driver1.PNG">
@@ -67,12 +69,18 @@ The drivers heated up very slightly during prolonged operation, the passive cool
 <img align="right" height="200" src="./Images/inverter2k2.jpg">
 
 A chineese set of inverter and spindle is used. The rated power of both is 2.2kW.
+
 The inverter model is **YL620-A-2.2kW**. It is powered by a single-phase 230V mains.
 
 ### Inverter connection
 
+TODO: 
+
+Inverter Connection
+
 ### Spindle cooling
 <img align="right" height="200" src="./Images/temp_display.jpg">
+<img align="right" height="200" src="./Images/spindle_cooling.jpg">
 
 The spindle is water-cooled, so I made a temperature monitoring system from an old graphic-lcd project based on another AVR and here is what it does:
 * measures the temperatures of the ingoing and outgoing coolant using **DS18B20** 1-wire digital thermometers
@@ -81,6 +89,6 @@ The spindle is water-cooled, so I made a temperature monitoring system from an o
 * displays calculated values live on the 128x64 LCD
 * watches for ovearheat and low-flow conditions in order to alert the operator, pause the program and disable the spindle
 
-<img align="right" height="200" src="./Images/spindle_cooling.jpg">
+
 
 
