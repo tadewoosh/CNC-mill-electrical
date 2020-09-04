@@ -6,7 +6,7 @@ This repo contains the files needed for construction of a custom machine control
 ## Block diagram
 ![diagram1](./Images/diagram1.png)
 
-## Main controller
+## Motion controller
 <img align="right" height="200" src="./Images/pcb.PNG">
 
 The main controller board is an AVR ATMega8 based device aiming to replace the Arduino board as the motion controller. The reason why one might want to use this board instead of Arduino is that it provides:
@@ -19,14 +19,17 @@ The main controller board is an AVR ATMega8 based device aiming to replace the A
 
 ## Motor Drivers
 <img align="right" height="200" src="./Images/driver1.PNG">
-The 2DM556S 4.2 RMS drivers are used.
+
+The **2DM556S** 4.2 RMS drivers are used.
 
 The current limiter on the driver is set to 3,5A in order to drive the 60HS100-3504A08-D24 4,3N.m stepper motors.
 
 The microstepping is set to 2000.
 
-
 ## Spindle Inverter
+<img align="right" height="200" src="./Images/inverter2k2.jpg">
+
+A chineese set of inverter and spindle is used. The rated power is 2.2kW.
 
 ## Inputs
 
