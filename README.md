@@ -16,6 +16,7 @@ The main controller board is an AVR ATMega8 based device aiming to replace the A
 * Additional noise-reducing and LPF circuitry for the inputs and outputs
 * A high-voltage output for the coolant output
 
+The Eagle project files are hosted in this repository along with the CAM configuration and its output (GERBER, drillfiles etc.) allowing for the easy PCB manufacturing/ordering.
 
 ## Motor Drivers
 <img align="right" height="200" src="./Images/driver1.PNG">
@@ -29,7 +30,9 @@ The microstepping is set to 2000.
 ## Spindle Inverter
 <img align="right" height="200" src="./Images/inverter2k2.jpg">
 
-A chineese set of inverter and spindle is used. The rated power is 2.2kW.
+A chineese set of inverter and spindle is used. The rated power of both is 2.2kW.
+
+The inverter model is **YL620-A-2.2kW**. It is powered by a single-phase 230V mains.
 
 ## Inputs
 
