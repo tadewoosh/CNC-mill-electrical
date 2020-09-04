@@ -1,4 +1,4 @@
-# CNC mill: electrical
+# CNC router/mill: electrical
 The electrical part of the CNC router/mill project.
 
 This repo contains the files needed for construction of a custom motion controller based on the [GRBL 1.1](https://github.com/gnea/grbl) project. If you don't want to make your own PCB you can still use GRBL compatible Arduino boards.
@@ -50,7 +50,9 @@ The **2DM556S** 4.2A RMS drivers are used.
 * Microstepping is set to 2000, combined with 1,8 sdegree mechanical resolution of the stepper and 5mm/turn of the ballscrew on each axis returns a resolution of 400 steps/mm.
 
 ### Driver connection
+<img align="right" height="200" src="./Images/driver_connection.png">
 
+The cabling connecting all the low-power signals from motion controller to the driver should be as short as possible. Shielding and grounding should be sound in order to avoid EMC interference with high-current lines. Pay special notice to the location of the inverter-to-spindle cable (which should be shielded in its own right) since it is the devil of such application. Calculate the correct cable diameters in order to reduce voltage drops on the high-current lines. 
 
 ## Spindle Inverter
 <img align="right" height="200" src="./Images/inverter2k2.jpg">
