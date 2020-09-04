@@ -3,6 +3,26 @@ The electrical part of the CNC router/mill project.
 
 This repo contains the files needed for construction of a custom motion controller based on the [GRBL 1.1](https://github.com/gnea/grbl) project. If you don't want to make your own PCB you can still use GRBL compatible Arduino boards.
 
+## Table of contents
+  * [Block diagram](#block-diagram)
+  * [Motion controller](#motion-controller)
+    + [Why not Arduino?](#why-not-arduino-)
+    + [Detailed specification](#detailed-specification)
+    + [GRBL Settings](#grbl-settings)
+  * [Inputs wiring](#inputs-wiring)
+    + [Limit switches](#limit-switches)
+    + [Sensor](#sensor)
+    + [User buttons](#user-buttons)
+  * [Motor Drivers](#motor-drivers)
+    + [Driver configuration](#driver-configuration)
+    + [Driver connection](#driver-connection)
+  * [Inverter and Spindle](#inverter-and-spindle)
+    + [Inverter connection](#inverter-connection)
+    + [Spindle cooling](#spindle-cooling)
+
+<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
+
+
 ## Block diagram
 
 ![diagram1](./Images/diagram1.png)
