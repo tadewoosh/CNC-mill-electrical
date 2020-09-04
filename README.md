@@ -7,16 +7,13 @@ This repo contains the files needed for construction of a custom machine control
 ![diagram1](./Images/diagram1.png)
 
 ## Main controller
-
+<img align="right" height="200" src="./Images/pcb.PNG">
 The main controller board is an AVR ATMega8 based device aiming to replace the Arduino board as the motion controller. The reason why one might want to use this board instead of Arduino is that it provides:
 * Galvanic insulation of the machine and the PC
 * Robust power circuitry
 * Robust connectors suitable for more "industrial" use
 * Additional noise-reducing and LPF circuitry for the inputs and outputs
 * A high-voltage output for the coolant output
-
-![pcb_image](./Images/pcb.PNG)
-
 
 ## Motor Drivers
 <img align="right" height="200" src="./Images/driver1.PNG">
