@@ -5,7 +5,7 @@ The electrical part of the CNC mill project.
 
 
 ## Main controller
-![](./Images/pcb.PNG =250x)
+![pcb_image](./Images/pcb.PNG)
 
 
 ## Drivers
