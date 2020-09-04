@@ -21,8 +21,9 @@ The Eagle project files are hosted in this repository along with the CAM configu
 
 In order to program a blank AVR chip with GRBL one needs first to obtain the Arduino bootloader allowing to update the frmware via the serial port.
 
-<img align="right" height="200" src="./Images/schematic1.png">
 ### Detailed specification
+
+<img align="right" height="200" src="./Images/schematic1.png">
 <img align="right" height="200" src="./Images/schematic2.png">
 
 * up to 36V DC supply voltage when using **TSR 1-2450**, otherwise **7805** specification applies.
