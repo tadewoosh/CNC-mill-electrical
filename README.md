@@ -22,9 +22,9 @@ The Eagle project files are hosted in this repository along with the CAM configu
 In order to program a blank AVR chip with GRBL one needs first to obtain the Arduino bootloader allowing to update the frmware via the serial port.
 
 <img align="right" height="200" src="./Images/schematic1.png">
+### Detailed specification
 <img align="right" height="200" src="./Images/schematic2.png">
 
-### Detailed specification
 * up to 36V DC supply voltage when using **TSR 1-2450**, otherwise **7805** specification applies.
 * reverse power supply protection
 * reset switch
@@ -37,8 +37,6 @@ In order to program a blank AVR chip with GRBL one needs first to obtain the Ard
 * 3 limit switches inputs, active low, with debouncing circuitry and LED indication
 * High voltage (supply), high current (1A) output for driving the cooland relay with Shottky protection
 * PWM or analog (using LPF) 0-5V output for spindle speed and direction control with LED indication
-
-
 
 ## Motor Drivers
 <img align="right" height="200" src="./Images/driver1.PNG">
@@ -56,6 +54,6 @@ A chineese set of inverter and spindle is used. The rated power of both is 2.2kW
 
 The inverter model is **YL620-A-2.2kW**. It is powered by a single-phase 230V mains.
 
-## Inputs
+## Connecting Inputs
 
-## Outputs
+## Connecting Outputs
