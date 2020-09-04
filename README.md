@@ -9,6 +9,7 @@ This repo contains the files needed for construction of a custom machine control
 ## Motion controller
 <img align="right" height="200" src="./Images/pcb.PNG">
 
+### Why not Arduino?
 The main controller board is an AVR ATMega8 based device aiming to replace the Arduino board as the motion controller. The reason why one might want to use this board instead of Arduino is that it provides:
 * Galvanic insulation of the machine and the PC
 * Robust power circuitry
@@ -17,6 +18,24 @@ The main controller board is an AVR ATMega8 based device aiming to replace the A
 * A high-voltage output for the coolant output
 
 The Eagle project files are hosted in this repository along with the CAM configuration and its output (GERBER, drillfiles etc.) allowing for the easy PCB manufacturing/ordering.
+
+In order to program a blank AVR chip with GRBL one needs first to obtain the Arduino bootloader allowing to update the sifrmware via the serial port.
+
+### Detailed specification
+* up to 36V DC supply voltage when using **TSR 1-2450**, otherwise **7805** specification applies.
+* reverse power supply protection
+* reset switch
+* ISP connector (*NOTE: The programming using ISP shlud not be used when the spindle inverter is ON*)
+* debug serial commincation port with 5V tap
+* USB to serial converter based on FTDI with optoisolation
+* 3 sets of STEP/DIR/ENABLE connectors for stepper drivers with LED indicators
+* User switches inputs (active low, with debouncing circuitry): ABORT, HOLD, START
+* Probe input with debouncing circuitry and LED indication
+* 3 limit switches inputs, active low, with debouncing circuitry and LED indication
+* High voltage (supply), high current (1A) output for driving the cooland relay with Shottky protection
+* PWM or analog (using LPF) 0-5V output for spindle speed and direction control with LED indication
+
+
 
 ## Motor Drivers
 <img align="right" height="200" src="./Images/driver1.PNG">
