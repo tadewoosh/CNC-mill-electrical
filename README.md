@@ -56,7 +56,7 @@ The **2DM556S** 4.2A RMS drivers are used.
 ### Driver configuration
 
 * Current limiter on the driver is set to 3,31A in order to drive the 60HS100-3504A08-D24 4,3N.m stepper motors. This is not the maximum current (3.5A) for the motors, but in order to keep them from overheating during some long sessions this needed to be lowered.
-* Microstepping is set to 2000, combined with 1,8 sdegree mechanical resolution of the stepper and 5mm/turn of the ballscrew on each axis returns a resolution of 400 steps/mm.
+* Microstepping is set to "4000 Steps per revolution" accoding to the chineese maunfacturer. In real world combined with 1,8 sdegree mechanical resolution of the stepper and 5mm/turn of the ballscrew on each axis returns a resolution of 800 steps/mm. That means a theoretical resolution per step is 1.25 um which is absurd, yet it probably helps a bit with the smoothnes.
 * Standby current is set, so when the motor is not in motion the current is lowered. This helps with overheating and I have not seen any adverse effects on the quality of the cuts.
 * Smoothnes settings seem not to affect the operation nor the sound at all so I have turned it off. The speed ramps are calculated in the motion controller and they work OK. 
 
