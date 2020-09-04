@@ -20,7 +20,11 @@ The main controller board is an AVR ATMega8 based device aiming to replace the A
 
 ## Motor Drivers
 <img align="right" height="200" src="./Images/driver1.PNG">
-The 2DM556S are used in order to drive the 60HS100-3504A08-D24 4,3N.m stepper motors.
+The 2DM556S 4.2 RMS drivers are used.
+
+The current limiter on the driver is set to 3,5A in order to drive the 60HS100-3504A08-D24 4,3N.m stepper motors.
+
+The microstepping is set to 2000.
 
 
 ## Spindle Inverter
