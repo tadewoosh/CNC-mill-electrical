@@ -128,9 +128,14 @@ The spindle is water-cooled, so I made a temperature monitoring system from an o
 
 ## Software for G-Code streaming
 ### Candle
+TODO:
+
+Candle description
 
 ### GRBL Panel
+TODO:
 
+GRBL Panel description
 
 
 
