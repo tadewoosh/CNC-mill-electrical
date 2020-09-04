@@ -12,16 +12,16 @@ This repo contains the files needed for construction of a custom motion controll
 <img align="right" height="200" src="./Images/pcb.PNG">
 
 ### Why not Arduino?
-The main controller board is an AVR ATMega8 based device aiming to replace the Arduino board as the motion controller. The reason why one might want to use this board instead of Arduino is that it provides:
+The main controller board is an AVR **ATmega8** based device aiming to replace the Arduino board as the motion controller. The reason why one might want to use this board instead of Arduino is that it provides:
 * Galvanic insulation of the machine and the PC
 * Robust power circuitry
-* Robust connectors suitable for more "industrial" use
+* Robust, edge mounted connectors suitable for more "industrial" use
 * Additional noise-reducing and LPF circuitry for the inputs and outputs
-* A high-voltage output for the coolant output
+* A high-voltage output for the coolant valve relay
 
 The Eagle project files are hosted in this repository along with the CAM configuration and its output (GERBER, drillfiles etc.) allowing for the easy PCB manufacturing/ordering.
 
-In order to program a blank AVR chip with GRBL one needs first to obtain the Arduino bootloader allowing to update the frmware via the serial port.
+In order to program a blank AVR chip with GRBL one needs first to obtain the Arduino bootloader allowing to update the frmware via the serial port from Arduino IDE.
 
 ### Detailed specification
 
