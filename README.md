@@ -43,10 +43,25 @@ In order to program a blank AVR chip with GRBL one needs first to obtain the Ard
 * Simple and easy to hand-solder 100x50 mm two-layer board with 3mm holes in the corners for ease of mounting. 
 
 ### GRBL Settings
-
 TODO: 
 
 GRBL Settings
+
+## Inputs wiring
+### Limit switches
+TODO:
+
+Limit switches wiring
+
+### Sensor
+TODO:
+
+Sensor wiring
+
+### User buttons
+TODO:
+
+User Buttons wiring
 
 ## Motor Drivers
 <img align="right" height="200" src="./Images/driver1.PNG">
